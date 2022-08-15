@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --accent: #65a30d;
+    --dark: #18181b;
+    --background: #fefce8;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--background);
+}
+
+nav {
+    background-color: var(--accent);
+    text-align: center;
+}
+
+nav h1 {
+    font-size: 2rem;
+    padding: 0.7rem;
+}
+
+.translation-div {
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin: 2rem;
+    font-size: large;
+    border: 2px solid var(--dark);
+    border-radius: 0.2rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+button {
+    background-color: var(--accent);
+    margin: 1rem 0rem;
+    padding: 0.5rem 1rem;
+    font-size: large;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent);
+    color: var(--colorLight);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+}
+
+.footer-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-links li a {
+    color: var(--dark);
+    padding: 0 1rem;
+    display: block;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
